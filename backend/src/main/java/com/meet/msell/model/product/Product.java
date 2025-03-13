@@ -1,6 +1,7 @@
-package com.meet.msell.model;
+package com.meet.msell.model.product;
 
 
+import com.meet.msell.model.seller.Seller;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

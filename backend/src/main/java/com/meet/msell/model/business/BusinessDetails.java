@@ -1,4 +1,4 @@
-package com.meet.msell.model;
+package com.meet.msell.model.business;
 
 import lombok.Data;
 

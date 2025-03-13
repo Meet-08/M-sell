@@ -1,4 +1,4 @@
-package com.meet.msell.model;
+package com.meet.msell.model.common;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

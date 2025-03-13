@@ -1,5 +1,6 @@
-package com.meet.msell.model;
+package com.meet.msell.model.product;
 
+import com.meet.msell.model.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 

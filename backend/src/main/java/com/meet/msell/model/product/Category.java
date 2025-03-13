@@ -1,4 +1,4 @@
-package com.meet.msell.model;
+package com.meet.msell.model.product;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

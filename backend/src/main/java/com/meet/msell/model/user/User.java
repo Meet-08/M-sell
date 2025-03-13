@@ -1,8 +1,10 @@
-package com.meet.msell.model;
+package com.meet.msell.model.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.meet.msell.domain.USER_ROLE;
+import com.meet.msell.model.common.Address;
+import com.meet.msell.model.product.Coupon;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

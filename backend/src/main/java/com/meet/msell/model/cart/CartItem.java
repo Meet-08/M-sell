@@ -1,6 +1,7 @@
-package com.meet.msell.model;
+package com.meet.msell.model.cart;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.meet.msell.model.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
