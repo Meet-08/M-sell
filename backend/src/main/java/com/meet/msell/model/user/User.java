@@ -7,6 +7,7 @@ import com.meet.msell.model.common.Address;
 import com.meet.msell.model.product.Coupon;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
