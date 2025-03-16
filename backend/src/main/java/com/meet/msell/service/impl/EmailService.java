@@ -1,4 +1,4 @@
-package com.meet.msell.service;
+package com.meet.msell.service.impl;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

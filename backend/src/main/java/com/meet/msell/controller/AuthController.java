@@ -4,6 +4,7 @@ import com.meet.msell.domain.USER_ROLE;
 import com.meet.msell.model.user.VerificationCode;
 import com.meet.msell.response.ApiResponse;
 import com.meet.msell.response.AuthResponse;
+import com.meet.msell.response.LoginRequest;
 import com.meet.msell.response.SignupRequest;
 import com.meet.msell.service.AuthService;
 import jakarta.validation.Valid;
@@ -38,6 +39,11 @@ public class AuthController {
         ApiResponse response = new ApiResponse();
         response.setMessage("Otp sent successfully");
         return ResponseEntity.status(201).body(response);
+    }
+
+    @PostMapping("/signing")
+    public ResponseEntity<AuthResponse> LoginHandler(@RequestBody LoginRequest req) throws Exception {
+        return ResponseEntity.status(200).body(authService.signin(req));
     }
 
 }
